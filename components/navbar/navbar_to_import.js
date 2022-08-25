@@ -1,0 +1,160 @@
+function navbar_fn () {
+    return `<div id="navbar">
+    <div id="img_container">
+        <img src="https://animoto.com/static/AnimotoLogoBlobs-afa5652205594807da50c94d53f42b86.svg" alt="image" id="nav_image">
+        <img src="https://animoto.com/static/logo-1d220e413f4f69fa42d66d93381db371.svg" alt="" id="nav_logo">
+    
+    </div>
+    <div id="nav_links">
+        <div id="nav_buttons">
+            <div id="create"><a href="#">CREATE</a>
+                <span class="nav_svg">
+                    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 8" role="img"><path d="M6 7.4L.6 2 2 .6l4 4 4-4L11.4 2z"></path></svg>
+
+                </span>
+                <div id="create_links">
+                    <div id="create_link_container">
+                        <div>
+                            <h2>BY VIDEO TYPE</h2>
+                            <div>
+                                <a href="#">Promo video</a>
+                                <a href="">Slideshow video</a>
+                                <a href="">Social media video</a>
+                                <a href="">Tutorial video</a>
+                                <a href="">Birthday video</a>
+                                <a href="">Graduation video</a>
+                            </div>
+                            
+                        
+                        
+                        </div>
+                        <div>
+                            <h2>BY INDUSTRY</h2>
+                            <div>
+                                <a href="">Business</a>
+                                <a href="">Real estate</a>
+                                <a href="">Photography</a>
+                                <a href="">E-commerce</a>
+                                <a href="">Education</a>
+                                <a href="">Non-profit</a>
+                            </div>
+                        
+                        </div>
+                        
+
+
+
+
+                    </div>
+                </div>
+        </div>
+        
+
+
+            
+            <div><a href="#">TEMPLATES</a></div>
+            <div><a href="#">FEATURES</a></div>
+            <div><a href="#">PRICING</a></div>
+            <div id="learn"><a href="#">LEARN</a>
+                <span class="nav_svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 8" role="img"><path d="M6 7.4L.6 2 2 .6l4 4 4-4L11.4 2z"></path></svg>
+                </span>
+                <div id="learn_links">
+                    <div id="learn_link_container">
+                        <div>
+                            <svg class="learn_svg" height="100%" role="img" viewBox="0 0 48 48" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M11.81 19.79h29.44v20.44H11.81z" fill="none" stroke="#181c47" stroke-miterlimit="10" stroke-width="2"></path><path d="M30.04 30.01l-7 3.97v-7.94l7 3.97z" fill="none" stroke="#181c47" stroke-miterlimit="10" stroke-width="2"></path><path d="M11.82 33.86L6.9 35.19 1.57 15.45 30 7.77l3.25 12.02m11.43-13.8l-4.89 4.89M48 15.05h-6.92M35.62 2.67v6.91" fill="none" stroke="#181c47" stroke-miterlimit="10" stroke-width="2"></path></svg>
+                            <div>
+                                <a href="#">Tutorials</a>
+                                <p>Learn how to create videos with Animoto.</p>
+                                
+                            </div>
+                        </div>
+                        <div>
+                            <svg class="learn_svg" height="100%" role="img" viewBox="0 0 48 48" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M27.91,2.89A17.15,17.15,0,0,1,36.5,6.45L27.91,15V2.89M25.81.66v19a.2.2,0,0,0,.2.2.2.2,0,0,0,.14-.06L39.56,6.36A19.39,19.39,0,0,0,25.81.66Z" fill="#181c47"></path><path d="M22.23,4.05V29.14l3.58-3.58L40,11.42a20,20,0,0,1,4.49,12.64h0v.08A20.17,20.17,0,0,1,24.33,44.2c-.43,0-.87,0-1.31,0a20.13,20.13,0,0,1-.79-40.11m1.44-2.19h0a22.22,22.22,0,0,0-.76,44.39c.49,0,1,0,1.44,0A22.22,22.22,0,0,0,46.55,24.15h0s0,0,0-.06a22.16,22.16,0,0,0-6-15.22A.64.64,0,0,0,40,8.66a.69.69,0,0,0-.48.2L24.33,24.07V2.53a.67.67,0,0,0-.66-.67Z" fill="#181c47"></path></svg>                                    <div>
+                                <a href="#">Success stories</a>
+                                <p>See inspiration from real life businesses.</p>
+                                
+                            </div>
+                        </div>
+                        <div>
+                            <svg class="learn_svg" height="100%" role="img" viewBox="0 0 48 48" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M40.99 27.69h-16.3m11.19 6.64h-9.19m13.28 0h2.04m-4.08-13.28H22.69m19.32 0h4.09" fill="none" stroke="#181c47" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"></path><path d="M45.1 33.33h2v2h-2zM3.06 35.91l2.54-6.25h12.83L21 35.91h2.16l-10.19-25h-1.88L.9 35.91zm9-22l5.6 13.77H6.41z" fill="#181c47"></path></svg>                                    <div>
+                                <a href="#">Blog</a>
+                                <p>Read guides, video tips, and more.</p>
+                                
+                            </div>
+                        </div>
+                        <div>
+                            <svg class="learn_svg" height="100%" role="img" viewBox="0 0 48 48" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M1 10.68V1h9.68m0 46H1v-9.68m46 0V47h-9.68m0-46H47v9.68M28 26.53a4 4 0 1 1-7.92 0" fill="none" stroke="#181c47" stroke-miterlimit="10" stroke-width="2"></path><circle cx="29.69" cy="21.41" fill="#181c47" r=".78" stroke="#181c47" stroke-miterlimit="10" stroke-width="2"></circle><circle cx="18.31" cy="21.41" fill="#181c47" r=".78" stroke="#181c47" stroke-miterlimit="10" stroke-width="2"></circle><circle cx="24" cy="24" fill="none" r="13.32" stroke="#181c47" stroke-miterlimit="10" stroke-width="2"></circle></svg>                                    <div>
+                                <a href="#">Help Center</a>
+                                <p>Get support from our Customer Team.</p>
+                                
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+            </div>                    
+        </div>
+        <div id="nav_signin_signup_buttons">
+            <div><a href="login.html">LOG IN</a></div>
+            <div><a href="signup.html">SIGN UP FREE</a></div>
+        </div>
+
+
+        
+        
+    </div>
+    <div id="nav_middle_screen">
+        <div><a href="signup.html">SIGN UP FREE</a></div>
+        <span id="menu"><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" role="img"><title>Menu</title><path d="M24 16H0v-2h24v2zm0-7H0V7h24v2zm0-7H0V0h24v2z"></path></svg></span>
+    </div>
+</div>
+
+
+<!-- mobile links*********************************** -->
+<div id="mobile_links_list">
+    <div id="mobile_container">
+        <div id="create_mobile"><a href="#">Create</a>
+            <div style="display:inline" class="nav_svg_mobile" id="nav_svg_mobile_create">
+                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 8" role="img"><path d="M6 7.4L.6 2 2 .6l4 4 4-4L11.4 2z"></path></svg>
+
+            </div>
+            <div id="create_links_mobile">
+                <h4>BY VIDEO TYPE</h4>      
+                <a href="#">Promo video</a>
+                <a href="">Slideshow video</a>
+                <a href="">Social media video</a>
+                <a href="">Tutorial video</a>
+                <a href="">Birthday video</a>
+                <a href="">Graduation video</a>                         
+                <h4>BY INDUSTRY</h4>
+                <a href="">Business</a>
+                <a href="">Real estate</a>
+                <a href="">Photography</a>
+                <a href="">E-commerce</a>
+                <a href="">Education</a>
+                <a href="">Non-profit</a>
+            </div>
+    </div>
+    <div><a href="#">Templates</a></div>
+    <div><a href="#">Features</a></div>
+    <div><a href="#">Pricing</a></div>
+    <div id="learn_movile"><a href="#">Learn</a>
+        <div style="display: inline;" class="nav_svg_mobile" id="nav_svg_mobile_learn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 8" role="img"><path d="M6 7.4L.6 2 2 .6l4 4 4-4L11.4 2z"></path></svg>
+        </div>
+        <div id="learn_links_mobile">
+            <a href="#">Tutorials</a>
+            <a href="#">Success stories</a>
+            <a href="#">Blog</a>                
+            <a href="#">Help Center</a>    
+        </div>
+    </div>
+
+    <div id="mobile_signin">
+        <a href="#">LOG IN</a>
+    </div>
+</div>
+`
+}
+
+export {navbar_fn}
