@@ -1,7 +1,7 @@
-console.log(2)
+// console.log(2)
 import {navbar_fn} from './navbar_to_import.js'
 const navbar_comtainer = document.querySelector('#navbar_container');
-console.log(navbar_comtainer)
+// console.log(navbar_comtainer)
 navbar_comtainer.innerHTML = navbar_fn()
 
 
