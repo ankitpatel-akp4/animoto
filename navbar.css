@@ -18,7 +18,7 @@ a{
     border-bottom: 1px solid #dadada;
     background-color: #fff;
 }
-body {
+/* body {
     font-family: ProximaNova,'helvetica neue',helvetica,arial,sans-serif;
     font-size: calc(.65318rem - .1987vw);
     line-height: calc(.74566rem + .27095vw);
@@ -26,7 +26,7 @@ body {
 }
 div {
     display: block;
-}
+} */
 #logo{
     background-image: url(https://d2of6bhnpl91ni.cloudfront.net/images/logo/logo_color_text-23fd067394.svg);
     font: 0/0 serif;

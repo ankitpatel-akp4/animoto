@@ -7,32 +7,33 @@
     <title>Document</title>
     <link rel="stylesheet" href="./navbar.css">
     <style>
-        *{
+        /* *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
+        } */
         /* #navbar{
             border: 4px solid blue;
             width: 100%;
             height: 72px;
         } */
         #container{
-            border: 3px solid red;
+            /* border: 3px solid red; */
             width: 100%;
             min-height: 600px;
             display: flex;
         }
-        #container>#sidebar{
-            border: 3px solid green;
+        #sidebar{
+            /* border: 3px solid green; */
             width: 22%;
             min-height: 600px;
+            border-right: solid #b3b3b3 1px;
         }
-        #container>#sidebar>h2{
-            font-size: 20px;
+        #sidebar>h2{
+            /* font-size: 20px; */
             margin-top: 50px;
         }
-        #container>#sidebar>button{
+        #sidebar>button{
             width: 90%;
             height: 35px;
             margin-left: 15px;
@@ -40,66 +41,95 @@
             font-size: 20px;
             margin-top: 6px;
             margin-bottom: 6px;  
+            border: none;
+            background-color: rgb(240, 244, 247);
         }
-        #container>#sidebar>h2{
+        #sidebar>h2{
             margin-left: 15px;
         }
-        #container>#content-section{
-            border: 3px solid yellow;
+        #content-section{
+            /* border: 3px solid yellow; */
             width: 78%;
             min-height: 600px;
         }
-        #container>#content-section>#content-section-1{
-            border: 3px solid black;
+        #content-section-1{
+            /* border: 3px solid black; */
             width: 100%;
             min-height: 250px;
             display: flex;
         }
-        #container>#content-section>#content-section-2{
-            border: 3px solid blue;
-            width: 100%;
-            min-height: 350px;
+        #content-section-2{
+            /* display: grid;
+            grid-template-columns: repeat(3,25%);
+            grid-gap: 3%;
+            margin-top: 1%; */
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2%;
         }
-        #container>#content-section>#content-section-1>#left-side{
-            border: 3px solid brown;
+        #content-section-1>#left-side{
+            /* border: 3px solid brown; */
             width: 70%;
-            min-height: 250px;
+            height: auto;
         }
-        #container>#content-section>#content-section-1>#left-side>h2{
-            font-size: 25px;
+        #content-section-1>#left-side>h2{
+            /* font-size: 25px; */
             margin-top: 50px;
             margin-left: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
-        #container>#content-section>#content-section-1>#left-side>h1{
+        #content-section-1>#left-side>h1{
             font-size: 50px;
-            margin-top: 30px;
+            margin-top: 10px;
             margin-left: 20px;
         }
-        #container>#content-section>#content-section-1>#left-side>p{
-            font-size: 20px;
-            margin-top: 80px;
+        #content-section-1>#left-side>p{
+            font-size: 25px;
+            margin-top: 60px;
             margin-left: 20px;
         }
-        #container>#content-section>#content-section-1>#right-side{
-            border: 3px solid green;
+        #content-section-1>#right-side{
+            /* border: 3px solid green; */
             width: 30%;
             min-height: 250px;
         }
-        #container>#content-section>#content-section-1>#right-side>a>button{
+        #content-section-1>#right-side>a>button{
             width: 300px;
             height: 40px;
             margin: 50px 10px 20px 10px;
         }
-        #container>#content-section>#content-section-1>#right-side>input{
+        #content-section-1>#right-side>input{
             width: 300px;
             height: 40px;
             margin: 50px 10px 10px 10px;
         }
+        
+        .all-div{
+            width: 25%;
+            height: 420px;
+            border: 3px solid rgb(211, 211, 232);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin: 20px 0px 20px 20px;
+            background-color: rgb(238, 241, 241);
+            text-align: center;
+            padding-top: 20px;
+
+        }
+        .all-div>img{
+            width: 256px;
+            height: 144px;
+            margin: 50px 0px 60px 0px;
+        }
+        .all-div>h1{
+            margin: 0px 20px 25px 20px;
+            font-size: 25px;
+        }
+        .all-div>p{
+            margin: 0px 20px 0px 20px;
+        }
     </style>
 </head>
 <body>
-    <nav>
         <div id="navbar">
           <div id="logo">
             <a href="">
@@ -117,7 +147,6 @@
             </ul>
           </div>
         </div>
-      </nav>
     <div id="container">
         <div id="sidebar">
             <h2>VIEW BY</h2><br>
@@ -157,7 +186,9 @@
                     <input type="search" id="input" placeholder="Search all templates">
                 </div>
             </div>
-            <div id="content-section-2"></div>
+            <div id="content-section-2">
+                
+            </div>
         </div>
     </div>
 </body>
