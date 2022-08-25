@@ -32,7 +32,10 @@
             margin-top: 6px;
             margin-bottom: 6px;  
             border: none;
-            background-color: rgb(240, 244, 247);
+            background-color: white;
+            border-left: 5px solid skyblue;
+            padding-left: 15px;
+            
         }
         #sidebar>h2{
             margin-left: 15px;
@@ -83,15 +86,27 @@
             width: 30%;
             min-height: 250px;
         }
-        #content-section-1>#right-side>a>button{
+        #content-section-1>#right-side>button{
             width: 300px;
-            height: 40px;
+            height: 45px;
             margin: 50px 10px 20px 10px;
+            font-size: large;
+            font-weight: bold;
+            color: #a7a7a7;
+            border-radius: 25px 25px 25px 25px;
+            background-color: white;
+            border-color: #cdcdcd;
         }
         #content-section-1>#right-side>input{
             width: 300px;
             height: 40px;
             margin: 50px 10px 10px 10px;
+            font-size: large;
+            border-top-color: aqua;
+            border-right-color: aqua;
+            border-bottom-color: aqua;
+            border-left-color: aqua;
+            padding-left: 10px;
         }
         
         .all-div{
@@ -172,7 +187,7 @@
                     <h2>CHOOSE A TEMPLATE</h2>
                 </div>
                 <div id="right-side">
-                    <a href="#" id="btn"><button>START FROM SCRATCH</button></a><br><br>
+                    <button>START FROM SCRATCH</button><br><br>
                     <input type="search" id="input" placeholder="Search all templates">
                 </div>
             </div>
