@@ -321,13 +321,13 @@ a{
 }
 
 #top_VIII{
-    width: 100%;
+    width: 95%;
     margin: auto;
     padding-left: 50px;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 15px;
 }
 #top_VIII>div{
     width: 50%;
@@ -335,13 +335,19 @@ a{
 #top_VIII>div+div>img{
     display: block;
     width: 100%;
+    padding-bottom: 50px;
     /* margin-left: px; */
+}
+#top_VIII>div>h1,#top_VIII>div>p{
+    padding-bottom: 20px;
+}
+.FAQ_button+p{
+    display: none;
 }
 
 
 
-
-@media (max-width: 920px) {
+/* @media (max-width: 920px) {
     #video>iframe {
         width: 89%;
         height:  55%;
@@ -351,10 +357,10 @@ a{
         font-size: 60%;
         font-weight: normal;
     }
-}
+} */
 
 
-@media (min-width: 320px) and (max-width: 765px){
+/* @media (min-width: 320px) and (max-width: 765px){
     #video>iframe {
         width: 89%;
         height:  120%
@@ -408,4 +414,150 @@ a{
         display: flex;
         flex-direction: column-reverse;
     }
+} */
+
+
+@media (max-width: 920px) {
+    #video>iframe {
+        width: 89%;
+        height:  55%;
+    }
+    #buttons{
+        gap: 10px;
+        font-size: 60%;
+        font-weight: normal;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 765px){
+
+#top>#Top_img{
+    display: none;
+}
+
+#top>#top_page{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid;
+}
+
+    #video>iframe {
+        width: 89%;
+        height:  120%
+       
+    }
+    #video{
+        margin-top: 50px;
+        background-image: none;
+    }
+    #top_page{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    #top{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    #headers{
+        flex-direction: column;
+        padding: 0%;
+        margin: auto;
+    }
+    #top_left{
+        padding: 0%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #top_deading{
+        width: 220%;
+        font-size: 300%;
+        text-align: center;
+        padding: 0%;
+        margin: auto;
+        margin-left: -55%;
+    }
+    #top_deading+p{
+        width: 190%;
+        margin-left: -45%;
+        margin-bottom: -20px;
+        
+    }
+
+
+    #top button{
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    #put_video{
+     flex-direction: column;
+        align-items: center;
+    }
+    #top_VI>div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #buttons{
+        gap: 5px;
+        font-size: 40%;
+        font-weight: normal;
+        flex-direction: column;
+    }
+    div>button{
+        width: 80%;
+    }
+
+    #desc{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #top_V>div>div+div{
+        display: none;
+    }
+
+    #put_video>div>h1{
+        text-align: left;
+        padding: 0px;
+        width: 200%;
+        margin-left: -50%;
+
+    }
+    #put_video>div>p{
+        padding: 0px;
+        margin: auto;
+        text-align: left;
+        width: 200%;
+        margin-left: -45%;
+
+    }
+    #video{
+        width: 99%;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    #video>iframe{
+        height: 350px;
+        width: 100%;
+        margin-left: -30px;
+        background-image: url("https://images.ctfassets.net/00i767ygo3tc/asset-sktwi7jfjxrnhfv4/1cca32fb894889a9f3eafd73caf874db/Birthday-video-creator-to-make-videos-online_2x-e284dbe415.jpg?w=1130&h=660&q=80&fm=webp");
+    }
+    #top_VII>div{
+        margin-bottom: -6px;
+    }
+    #top_VII>img{
+        margin-top: -80px;
+        padding-top: -20px;
+    }
+
+
 }
