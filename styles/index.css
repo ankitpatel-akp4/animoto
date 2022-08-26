@@ -1,7 +1,25 @@
+*{
+    color: #181c47;
+    font-family: ProximaNova,helvetica neue,helvetica,arial,sans-serif;
+    line-height: 110%;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #top{
+    
     background-color: rgba(241, 241, 241, 0.836);
     /* padding-bottom: 100px;
     background-image: url("https://animoto.com/static/wiggly-background-0a8823ffd34a7636e9400367df7ffe43.svg"); */
+}
+#top_deading, h1, h2{
+    font-family: PlayfairDisplay-Bold,serif;
+
+}
+#top_V h3, #top_V h3+p{
+    margin: 10px 0px;
 }
 #Top_img {
     width: 25%;
@@ -34,7 +52,9 @@
     justify-items: center;
     align-items: center;
 }
-
+#top button{
+    margin-top: 30px;
+}
 #top_left {
     width: 50%;
 }
@@ -122,7 +142,14 @@ a{
     background-color: rgba(241, 241, 241, 0.836);
 }
 #top_III>h1{
-    font-size:45px 
+    font-size:45px;
+     
+}
+#top_III h2{
+    margin: 10px 0px;
+}
+#top_III button{
+    height: 40px;
 }
 #top_III>img{
     width: 15%;
@@ -135,6 +162,7 @@ a{
 #buttons>h2{
     font-size: 20px;
     color: blueviolet;
+   
 }
 .video_part{
     justify-content: space-around;
@@ -281,7 +309,12 @@ a{
     /* margin-left: px; */
 }
 
-
+#top_VI h2{
+    margin: 20px;
+}
+#put_video p{
+    margin: 20px 0px;
+}
 
 
 @media (max-width: 920px) {
@@ -295,13 +328,27 @@ a{
         font-weight: normal;
     }
 }
-
+#desc h1,#desc p,#desc button{
+    margin-top: 5%;
+}
 
 @media (min-width: 320px) and (max-width: 765px){
+
+ /* playing video in full box starts************************************************ */
+   
+    
+ /* playing video in full box ends************************************************ */
+
+   
+   
     #video>iframe {
-        width: 89%;
-        height:  120%
-       
+        margin: auto;
+        width: 70%;
+        height:  350px;
+        padding: 20px;
+    }
+    .first_video_of_smallscreen{
+        padding-bottom: 10%;
     }
     #video{
         margin-top: 50px;
@@ -319,22 +366,29 @@ a{
         padding: 0px;
         text-align: center;
         margin-bottom: 50px;
+       
 
     }
     #headers{
         flex-direction: column;
     }
     #top_left{
+        margin-top: -20%;
         flex-direction: column;
+        /* border: 1px red solid; */
+        width: 100%;
+
+
+    }
+    #top_left h1{
+        margin: 20px 0px;
     }
 
     #top_deading{
         font-size: 300%;
         text-align: center;
     }
-    #top button{
-        margin-top: 50px;
-    }
+    
 
     #put_video{
      flex-direction: column;
@@ -349,6 +403,29 @@ a{
 
     #desc{
         display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    #desc h1,#desc p,#desc button{
+        margin-top: 5%;
+    }
+    #top_IV .disc_reverse{
+        display: flex;
         flex-direction: column-reverse;
     }
+/* top v********************************************************* */
+    #top_V>div{
+        display: block;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #top_V h3, #top_V h3+p{
+        margin: 10px 0px;
+    }
+/* top vi************************************88 */
+    #top_VI>div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
 }

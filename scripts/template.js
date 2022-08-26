@@ -1,7 +1,6 @@
 let left_side=document.getElementById("left-side");
 let h1=document.createElement("h1");
 let p=document.createElement("p");
-
 function recommended(){
     h1.innerText="Recommended for you";
     p.innerText="We suggest starting with these templates.";

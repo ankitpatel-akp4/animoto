@@ -1,10 +1,107 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./STYLE/navbar.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* #navbar{
+            border: 4px solid blue;
+            width: 100%;
+            height: 72px;
+        } */
+      #container {
+        border: 3px solid red;
+        width: 100%;
+        min-height: 600px;
+        display: flex;
+      }
+      #container > #sidebar {
+        border: 3px solid green;
+        width: 22%;
+        min-height: 600px;
+      }
+      #container > #sidebar > h2 {
+        font-size: 20px;
+        margin-top: 50px;
+      }
+      #container > #sidebar > button {
+        width: 90%;
+        height: 35px;
+        margin-left: 15px;
+        text-align: left;
+        font-size: 20px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+      }
+      #container > #sidebar > h2 {
+        margin-left: 15px;
+      }
+      #container > #content-section {
+        border: 3px solid yellow;
+        width: 78%;
+        min-height: 600px;
+      }
+      #container > #content-section > #content-section-1 {
+        border: 3px solid black;
+        width: 100%;
+        min-height: 250px;
+        display: flex;
+      }
+      #container > #content-section > #content-section-2 {
+        border: 3px solid blue;
+        width: 100%;
+        min-height: 350px;
+      }
+      #container > #content-section > #content-section-1 > #left-side {
+        border: 3px solid brown;
+        width: 70%;
+        min-height: 250px;
+      }
+      #container > #content-section > #content-section-1 > #left-side > h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+      #container > #content-section > #content-section-1 > #left-side > h1 {
+        font-size: 50px;
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+      #container > #content-section > #content-section-1 > #left-side > p {
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 20px;
+      }
+      #container > #content-section > #content-section-1 > #right-side {
+        border: 3px solid green;
+        width: 30%;
+        min-height: 250px;
+      }
+      #container
+        > #content-section
+        > #content-section-1
+        > #right-side
+        > a
+        > button {
+        width: 300px;
+        height: 40px;
+        margin: 50px 10px 20px 10px;
+      }
+      #container > #content-section > #content-section-1 > #right-side > input {
+        width: 300px;
+        height: 40px;
+        margin: 50px 10px 10px 10px;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -26,53 +123,72 @@
         </div>
       </div>
     </nav>
-    <div class="mid-section">
-      <section id="sidebar">
-        <div id="s-sidebar">
-          <div
-            style="
-              font-size: calc(0.518519rem + (1vw - 0.118519rem) * -0.111994);
-              line-height: calc(0.740741rem + (1vw - 0.118519rem) * -0.578035);
-            "
-          >
-            VIEW BY
+    <div id="container">
+      <div id="sidebar">
+        <h2>VIEW BY</h2>
+        <br />
+        <button id="recommended_for_you" onclick="recommended()">
+          Recommended for you</button
+        ><br />
+        <button id="All_templates" onclick="all_templates()">
+          All templates</button
+        ><br />
+        <button id="New" onclick="New()">NEW</button><br />
+        <button id="Popular" onclick="popular()">Popular</button><br /><br />
+        <h2>TYPE OF TEMPLATE</h2>
+        <br />
+        <button id="About_Us" onclick="about_us()">About Us</button><br />
+        <button id="Amazon_Promo" onclick="amazon_promo()">Amazon Promo</button
+        ><br />
+        <button id="Behind The Scenes" onclick="behind_scenes()">
+          Behind The Scenes</button
+        ><br />
+        <button id="Celebrations" onclick="celebrations()">Celebrations</button
+        ><br />
+        <button id="Education" onclick="education()">Education</button><br />
+        <button id="Event" onclick="eventt()">Event</button><br />
+        <button id="Explainer" onclick="explainer()">Explainer</button><br />
+        <button id="Holiday" onclick="holiday()">Holiday</button><br />
+        <button id="List" onclick="list()">List</button><br />
+        <button id="Motivational" onclick="motivational()">Motivational</button
+        ><br />
+        <button id="Narrative" onclick="narrative()">Narrative</button><br />
+        <button id="Product_Promotion" onclick="product_promotion()">
+          Product Promotion</button
+        ><br />
+        <button id="Real_Estate" onclick="real_estate()">Real Estate</button
+        ><br />
+        <button id="Service_Promotion" onclick="service_promotion()">
+          Service Promotion</button
+        ><br />
+        <button id="Slideshow" onclick="slideshow()">Slideshow</button><br />
+        <button id="Teaser" onclick="teaser()">Teaser</button><br />
+        <button id="Testimonial" onclick="testimoial()">Testimonial</button
+        ><br />
+        <button id="Tutorial" onclick="tutorial()">Tutorial</button><br />
+        <button id="Valentine_Day" onclick="valentine_day()">
+          Valentine's Day</button
+        ><br />
+        <button id="Workplace" onclick="workplace()">Workplace</button><br />
+      </div>
+      <div id="content-section">
+        <div id="content-section-1">
+          <div id="left-side">
+            <h2>CHOOSE A TEMPLATE</h2>
           </div>
-          <a href=""><span>Recommended for you</span></a>
-          <a href=""><span>All templates</span></a>
-          <a href=""><span>New</span></a>
-          <a href=""><span>Popular</span></a>
-          <div
-            style="
-              font-size: calc(0.518519rem + (1vw - 0.118519rem) * -0.111994);
-              line-height: calc(0.740741rem + (1vw - 0.118519rem) * -0.578035);
-            "
-          >
-            TYPE OF TEMPLATES
+          <div id="right-side">
+            <a href="#" id="btn"><button>START FROM SCRATCH</button></a
+            ><br /><br />
+            <input
+              type="search"
+              id="input"
+              placeholder="Search all templates"
+            />
           </div>
-          <a href=""><span>About Us</span></a>
-          <a href=""><span>Amazon Promo</span></a>
-          <a href=""><span>Behind The Scene</span></a>
-          <a href=""><span>Celebration</span></a>
-          <a href=""><span>Education</span></a>
-          <a href=""><span>Event</span></a>
-          <a href=""><span>Explainer</span></a>
-          <a href=""><span>Holiday</span></a>
-          <a href=""><span>List</span></a>
-          <a href=""><span>Motivation</span></a>
-          <a href=""><span>Narrative</span></a>
-          <a href=""><span>Production Promotion</span></a>
-          <a href=""><span>Real state</span></a>
-          <a href=""><span>Service Promotion</span></a>
-          <a href=""><span>Slideshow</span></a>
-          <a href=""><span>Teaser</span></a>
-          <a href=""><span>Testimonial</span></a>
-          <a href=""><span>Tutorial</span></a>
-          <a href=""><span>valentine's Day</span></a>
-          <a href=""><span>Workplace</span></a>
         </div>
-      </section>
+        <div id="content-section-2"></div>
+      </div>
     </div>
   </body>
 </html>
-
-   
+<script src="template.js"></script>

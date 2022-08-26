@@ -96,7 +96,7 @@ learn.addEventListener('mouseleave',()=>{
  })
 
  onresize = (event) => {
-    if(window.innerWidth>=920){
+    if(window.innerWidth>=920 &&a==1){
         menu.innerHTML = `<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" role="img"><title>Menu</title><path d="M24 16H0v-2h24v2zm0-7H0V7h24v2zm0-7H0V0h24v2z"></path></svg>`
         a = 0
         mobile_links_list.style.display = 'none'
