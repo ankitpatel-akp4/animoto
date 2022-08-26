@@ -1,20 +1,23 @@
 let recommanded_arr=[
   {
-    "link": "https://animoto.com/builder/templates/all/self-introduction",
+     //"link": "https://animoto.com/builder/templates/all/self-introduction",
+    'link':'indivisual.html',
     "image": "",
     "vedeo": "https://animoto.com/builder/templates/all",
     "title": "Self-Introduction",
     "details": "Introduce yourself with a few fun facts and a call to work together."
   },
  {
-    "link": "https://animoto.com/builder/templates/all/happy-birthday-slideshow",
+    //"link": "https://animoto.com/builder/templates/all/happy-birthday-slideshow",
+    'link':'indivisual.html',
     "image": "https://d150hyw1dtprld.cloudfront.net/Image/B3zG8S8Y98kWywXGlqfMSA/cover-ceffabe2c6.jpg",
     "vedeo": "https://animoto.com/builder/templates/all",
     "title": "Happy Birthday Slideshow",
     "details": "Create a quick journey down memory lane to celebrate a birthday."
   },
   {
-    "link": "https://animoto.com/builder/templates/all/wedding-slideshow",
+    //"link": "https://animoto.com/builder/templates/all/wedding-slideshow",
+    'link':'indivisual.html',
     "image": "https://d150hyw1dtprld.cloudfront.net/Image/oz97cuDNSRt4Aqm8G1eksQ/cover-8273f4e9d5.jpg",
     "vedeo": "https://animoto.com/builder/templates/all",
     "title": "Wedding Slideshow",
@@ -3100,8 +3103,7 @@ let workplace_arr=[
     "details": "Share knowledge or demonstrate technical tasks with a video.",
     "image1": "https://d2of6bhnpl91ni.cloudfront.net/bundles/react/images/blank.gif"
   }
-]
-
+];
 
 
 
@@ -3110,7 +3112,6 @@ let h1=document.createElement("h1");
 let p=document.createElement("p");
 
 let content_section_2=document.getElementById("content-section-2");
-
 
 function recommended(){
     h1.innerText="Recommended for you";
@@ -3287,7 +3288,9 @@ function display(data){
   content_section_2.innerHTML=null;
   data.forEach(function(el){
       let link=document.createElement('a');
-      link.href=el.link;
+      //link.href=el.link;
+      link.setAttribute('class','page-link');
+      //link.innerText="Show this template";
       let image=document.createElement("img");
       image.src=el.image;
       let video=document.createElement("iframe");
@@ -3299,6 +3302,10 @@ function display(data){
       let div=document.createElement('div');
       div.setAttribute('class','all-div');
       div.append(image,title,details);
+      //link.append(div);
+      div.addEventListener("click",()=>{
+        window.location.href=el.link;
+      })
       content_section_2.append(div);
   });
 }
