@@ -18,11 +18,11 @@ function navbar_fn () {
                             <h2>BY VIDEO TYPE</h2>
                             <div>
                                 <a href="#">Promo video</a>
+                                <a href="/pages/tutorial.html">Tutorial video</a>
                                 <a href="">Slideshow video</a>
+                                <a href="/pages/birthday.html">Birthday video</a>
                                 <a href="">Social media video</a>
-                                <a href="">Tutorial video</a>
-                                <a href="">Birthday video</a>
-                                <a href="">Graduation video</a>
+                                <a href="/pages/graduation.html">Graduation video</a>
                             </div>
                             
                         
@@ -32,10 +32,10 @@ function navbar_fn () {
                             <h2>BY INDUSTRY</h2>
                             <div>
                                 <a href="">Business</a>
-                                <a href="">Real estate</a>
-                                <a href="">Photography</a>
                                 <a href="">E-commerce</a>
+                                <a href="">Real estate</a>
                                 <a href="">Education</a>
+                                <a href="">Photography</a>
                                 <a href="">Non-profit</a>
                             </div>
                         
