@@ -194,11 +194,12 @@ a{
     width: 80%;
     margin: auto;
     padding: 30px;
+    /* border: 1px red solid; */
 }
 #top_IV>h1{
     font-size:40px 
 }
-#top_IV>img{
+#top_IV img{
     width: 15%;
 }
 #desc{
@@ -305,7 +306,7 @@ a{
 }
 #top_VIII>div+div>img{
     display: block;
-    width: 100%;
+    width: 92.5%;
     /* margin-left: px; */
 }
 

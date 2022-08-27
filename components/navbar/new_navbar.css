@@ -1,40 +1,26 @@
 *{
     padding: 0px;
     margin: 0px;
-    /* overflow: hidden; */
-}
-body{
-    width: auto;
-    display: grid;
-    justify-content: center;
-    overflow-x: hidden;
 }
 #navbar_container{
     height: 73px;
 }
 #navbar{
-    
-    top: 0px;
-    align-items: center;
     background-color: #fff;
-    border-bottom: 1px solid #dadada;
+    border: 1px solid #dadada;
     display: flex;
-    height: 4.5rem;
-    /* justify-content: space-around; */
+    height: 70px;
     position: relative;
-    width: auto;
-    z-index: 2;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     z-index: 100;
-    width: 100%;
    
     
 }
 #img_container{
     position: absolute;
-    width: 260px;
-    height: 70px;
+    width: 2vw;
     margin: 0px;
     padding: 0px;
     /* border: #181c47 1px solid; */
@@ -42,14 +28,12 @@ body{
 }
 #nav_image{
     width: 400px;
-    height: 70px;
+    height: 72px;
     padding: 0px;
     margin: 0px;
     position: relative;
     left: -75px;
     top: 0px;
-    /* width: 150%; */
-    /* border: 1px red solid; */
     
 }
 #nav_logo{
@@ -88,18 +72,22 @@ body{
 }
 
 .nav_svg > svg{
-    height: calc(.8vw + .01vh + .1vmin);;
+    height: calc(.8vw + .01vh + .1vmin);
     fill: #23408c;
     cursor: pointer;
 }
 
-#create>a, #learn>a{
+#create, #learn{
     cursor: text;
+    color: #23408c;
+    font-family: ProximaNova-Bold,helvetica neue,helvetica,arial,sans-serif;
+    font-size: calc(1.3vw + .01vh + .1vmin);
+    font-weight: 700;
 }
 #create{
     cursor: text;
     /* border: #23408c 1px solid; */
-    height: 200%;
+    height: 100%;
     display: flex;
     gap: 10%;
     align-items: center;
@@ -107,7 +95,7 @@ body{
 #learn{
     cursor: text;
     /* border: #23408c 1px solid; */
-    height: 200%;
+    height: 100%;
     display: flex;
     gap: 10%;
     align-items: center;
@@ -122,9 +110,7 @@ body{
     top: 71px;
     left: 0px;
     background-color: #fff;
-    
     align-items: center;
-
 }
 
 #create:hover #create_links{
@@ -141,7 +127,13 @@ body{
     line-height: 45px;
     text-decoration: none;
     font-weight: 400;
+    transition: color 100ms ease;
 }
+
+#create_link_container a:hover{
+    color:  #181c47;
+}
+
 #create_link_container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -150,8 +142,10 @@ body{
     align-items: center;
 }
 #create_link_container>div>div{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
 }
 #create_link_container h2{
     margin-bottom: 15px;
@@ -159,8 +153,8 @@ body{
 
 }
 #learn_link_container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    /* grid-template-columns: repeat(4,1fr); */
     width: 80%;
     margin: auto;
     align-items: center;
@@ -183,7 +177,12 @@ body{
     font-size: 20px;
     font-weight: 200;
     font-family: ProximaNova,helvetica neue,helvetica,arial,sans-serif;
+    transition: color 200ms ease;
 
+}
+
+#learn_link_container a:hover{
+    color:  #181c47;
 }
 #learn_link_container p{
     color: #181c47;
@@ -197,87 +196,85 @@ body{
 #nav_middle_screen{
     display: none;
 }
-#mobile_links_list{
-    height: auto;
-    background-color: #f3f3f9;
-    z-index: 20;
-    top: 73px;
-    position: absolute;
-    text-decoration: none;
-    color: #181c47;
-    font-family: ProximaNova,sans-serif;
-    letter-spacing: 0;
-    font-size: 300%;
-    line-height: 180%;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    display: none;
-    width: 100%;
-    height: 10000px;
-    /* border: 1px red solid; */
-
-}
-#mobile_links_list a{
-    color: #181c47;
-    text-decoration: none;
-    /* display: block; */
-}
-.nav_svg_mobile svg, .nav_svg_mobile svg{
-    height: calc(1.4vw + .01vh + .1vmin);;
-    fill: #181c47;
-    cursor: pointer;
-}
-#mobile_container{
-    margin-left: 5%;
-    margin-top:5%;
-}
-
-#create_links_mobile,#learn_links_mobile{
-    display: none;
-    margin-left: 5%;
-}
-#create_links_mobile h4,#learn_links_mobile h4{
-    margin-top: 3%;
-    margin-bottom: 1%;
-}
-#create_links_mobile a, #learn_links_mobile a{
-    display: block;
-   
-}
-
-#mobile_signin{
+#mobile_signin,#mobile_signup{
     border: #23408c 2px solid;
-    width: 130px;
+    width: calc(20vw);
     border-radius: 40px 40px;
     text-align: center;
-    height: 40px;
+    height: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-#mobile_signin a{
+#mobile_signin{
+    display: none;
+}
+#nav_middle_screen{
+    padding-right: 2vw;
+}
+#nav_middle_screen a {
     color: #23408c;
-    font-size: 16px;
+    font-size: 2vw;
     font-weight: 700;
+    text-decoration: none;
+    font-family: ProximaNova,sans-serif;
 }
-
-/* #nav_svg_mobile_create{
-    transform: rotate(20deg);
-    border: #181c47 1px solid;
-} */
 
 
 @media (max-width: 920px) { 
-
+    #background_div{
+        width: 100%;
+        /* border: 1px red solid; */
+        height: 2000px;
+        overflow-Y: hidden;
+        background-color: #f3f3f9;
+    }
+    #mobile_signin{
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        /* border: 1px red solid; */
+        font-size: calc(1.2vw + 2vh);
+    }
+    #nav_signin_signup_buttons+a{
+        color: #23408c;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: ProximaNova,sans-serif;
+    }
+    .nav_svg > svg{
+        height: calc(1vw + .03vh + .5vmin);
+        cursor: pointer;
+    }
     #nav_links{
         display: none;
+        margin-left: 0vw;
+        position: relative;
+        top: 71px;
+        left: 0px;
+        /* border: #181c47 solid 1px ; */
+        padding: 40px;
+        height: 100vh;
+        background-color: #f3f3f9;
+        /* overflow: hidden; */
+        /* display: block; */
+        
+        
+    }
+    #nav_links a{
+        font-size: calc(2vw + 2vh);
+        line-height: 10vh;
+    }
+    #create span,#learn span{
+        font-size: calc(2vw + 2vh);
+        line-height: 10vh;
+
     }
     #navbar{
         justify-content: end;
+        top: 0px;
     }
     #nav_middle_screen{
-       
         display: flex;
         align-items: center;
         gap: 5%;
@@ -286,29 +283,57 @@ body{
     #img_container{
         left: -8px;
     }
-    #nav_middle_screen>div{
-        width: 220px;
-        margin-right: 5%;
-        height: 40px;
-        border: 2px solid #23408c;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 20px;
-    }
-    #nav_middle_screen>div>a{
-        text-decoration: none;
-        font-family: ProximaNova,helvetica neue,helvetica,arial,sans-serif;
-        color: #23408c;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
     #nav_middle_screen svg{
-        width: 25px;
+        width: 3.5vw;
         display: flex;
         align-items: center;
         fill: #23408c;
+        cursor: pointer;
         /* border: 1px red solid; */
+    }
+    
+    #nav_buttons{
+        margin-left: 3%;
+        display: block;
+    }
+    #nav_signin_signup_buttons{
+        display: none;
+    }
+    #create_links,#learn_links{
+        position:static;
+        /* display:block; */
+        /* border: 1px red solid; */
+        height: auto;
+    }
+    #create:hover #create_links{
+        display: none;
+        
+    }
+    #learn:hover #learn_links{
+        display: none;
+        
+    }
+    #create_link_container,#learn_link_container{
+        display: block;
+        background-color: #f3f3f9;
+        width: 100%;
+        margin-top: 20px;
+        /* border: #181c47 1px solid; */
+        
+        
+    }
+    
+    #create_link_container >div>div,#learn_link_container >div>div{
+        display: block;
+        height: auto;
+        
+    }
+    #learn_link_container >div svg,#learn_link_container >div p{
+        display: none;
+        
+    }
+    #create,#learn{
+        display: block;
     }
     
 
@@ -321,9 +346,12 @@ body{
         left: -40px;
     }
 
+    .nav_svg > svg{
+        height: calc(1.5vw + .03vh + .5vmin);
+    }
+
 
  }
-
 
  #mobile_links_list{
     display: none;
