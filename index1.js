@@ -2,8 +2,8 @@ let recommanded_arr=[
   {
      //"link": "https://animoto.com/builder/templates/all/self-introduction",
     'link':'indivisual.html',
-    "image": "",
-    "vedeo": "https://animoto.com/builder/templates/all",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/11oD44a4Fc9rgCs35awFWw/cover-6b26066d05.jpg",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/11oD44a4Fc9rgCs35awFWw/hover-preview-1202974bea.mp4",
     "title": "Self-Introduction",
     "details": "Introduce yourself with a few fun facts and a call to work together."
   },
@@ -11,7 +11,7 @@ let recommanded_arr=[
     //"link": "https://animoto.com/builder/templates/all/happy-birthday-slideshow",
     'link':'indivisual.html',
     "image": "https://d150hyw1dtprld.cloudfront.net/Image/B3zG8S8Y98kWywXGlqfMSA/cover-ceffabe2c6.jpg",
-    "vedeo": "https://animoto.com/builder/templates/all",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/oz97cuDNSRt4Aqm8G1eksQ/hover-preview-3f29da3e2a.mp4",
     "title": "Happy Birthday Slideshow",
     "details": "Create a quick journey down memory lane to celebrate a birthday."
   },
@@ -19,9 +19,93 @@ let recommanded_arr=[
     //"link": "https://animoto.com/builder/templates/all/wedding-slideshow",
     'link':'indivisual.html',
     "image": "https://d150hyw1dtprld.cloudfront.net/Image/oz97cuDNSRt4Aqm8G1eksQ/cover-8273f4e9d5.jpg",
-    "vedeo": "https://animoto.com/builder/templates/all",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/w16BejnE7DvYvYVOEgg3dw/hover-preview-721389b777.mp4",
     "title": "Wedding Slideshow",
     "details": "Relive precious memories from your wedding day with a timeless video slideshow."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/in-loving-memory",
+    "image":"	https://d150hyw1dtprld.cloudfront.net/Image/5azA9x1P1kXNGcV2XlD1Qg%20/cover-189d331d2f.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "In Loving Memory",
+    "details": "Remember someone special you lost by celebrating them with memorable pictures throughout their lifetime."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/reels-for-summer",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/9UCgvdqXhUycTE41hAwf1g/cover-49afdf7025.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Reels for Summer",
+    "details": "Share the highlights of your summer with a fun and upbeat Instagram Reels video."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/digital-album",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/paL7AGT2bBVWxKvJ0u0bog/cover-c23fd4e463.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Digital Album",
+    "details": "Pair your images with your client’s story to build a beautiful digital photo album they’ll want to share."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/new-real-estate-listing",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/8XrE91W34jDsBkTDvx1qhg/cover-f14c5636b2.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "New Real Estate Listing",
+    "details": "Inform your customers of a new available listing on the market with this short and simple video."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/back-to-school-sale",
+    "image":"	https://d150hyw1dtprld.cloudfront.net/Image/GGjhAQUAoXojZFYW04iYHA/cover-5707091d06.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Back-to-School Sale",
+    "details": "Boost sales with an eye-catching back-to-school promo."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/educational-presentation",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/5jIpC0Y5TZpKTXsbtQ1fsQ/cover-2475df5213.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Educational Presentation",
+    "details": "Offer up your knowledge on any subject with this informative video."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/summer-tiktok",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/KApcHpFrBFsl9Rb7BcLR3Q/cover-5d750e57e4.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Summer TikTok",
+    "details": "Stand out on TikTok with a burst of summer memories."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/simple-product-explainer",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/9HEsg2khwMIM6Sxw6H2ftg/cover-d43960469b.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Simple Product Explainer",
+    "details": "Highlight the value of your product, service, or idea with a clever, easy-to-follow video."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/event-recap",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/2MYu1nskd8ewfO7LEekRtQ/cover-d85a0120d5.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Event Recap",
+    "details": "Keep the momentum going after an event by sharing video highlights and key takeaways."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/brand-awareness-ad",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/U1t1pzW1loJSh0y8N5rMFg/cover-d4d218dff2.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Brand Awareness Ad",
+    "details": "Get new audiences interested in your company or product with this bold, eye-catching ad."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/vacation-recap",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/ZBP0uuK9yeAPB0jjLr1X0g/cover-8aa43e4562.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Vacation Recap",
+    "details": "Have your friends and family follow along on your latest travel adventure."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/recommended/sports-recap",
+    "image":"https://d150hyw1dtprld.cloudfront.net/Image/QDqS33VuXHJ0RIo702jW0Q/cover-94c0990573.jpg",
+    "vedeo":"https://animoto.com/builder/templates/all",
+    "title": "Sports Recap",
+    "details": "Celebrate the blood, sweat, and tears from this past season with a recap reel."
   },
   ]
 
