@@ -5643,3 +5643,17 @@ function hide(x,y){
     x.style.display="none"
     x.pause()
 }
+function hide(){
+    if(document.querySelector("#sidebar").style.display=="none"){
+        document.querySelector("#sidebar").style.display="block";
+        document.querySelector("#transform").innerText="v";
+
+        document.querySelector("#transform").style.fontFamily="arial"
+    }
+    else{
+        document.querySelector("#sidebar").style.display="none";
+        document.querySelector("#transform").innerText=">"
+    }
+    
+
+}
