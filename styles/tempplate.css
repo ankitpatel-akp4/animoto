@@ -22,8 +22,20 @@
     /* border: 3px solid green; */
 
 }
+#mobile_mav_svg{
+    display: none;
+    fill:#1bcdcf;
+    fill:#969696;
+    width:calc(2.5vw)
+}
+#mobile_mav_svg:hover{
+    fill:#1bcdcf;
+    cursor: pointer;
+}
+
 
 @media screen and (min-width:992px) {
+
     #sidebar {
         display: block !important;
         width: 22%;
@@ -312,7 +324,12 @@ video .hidden:hover {
 }
 
 @media screen and (min-width:0px) and (max-width:850px) {
-
+    #mobile_mav_svg{
+        display: block;
+    }
+    .desktop_nav{
+        display: none;
+    }
     #container {
         display: flex;
         flex-direction: column;

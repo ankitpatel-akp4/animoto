@@ -1,5 +1,15 @@
 #transform{
     transform: rotate(180deg);
+    font-stretch: extra-expanded;
+    /* width:10px */
+    transition: all 150ms ease-in;
+}
+#transform svg{
+    width: 15px;
+    fill:#23408c;
+    
+    /* grid-template-columns: grid;
+    justify-content: center; */
 }
 
 *{
@@ -23,6 +33,15 @@ a{
     height: 72px;
     border-bottom: 1px solid #dadada;
     background-color: #fff;
+}
+#mobile_mav_svg{
+    /* display: ; */
+    width: 30px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px red solid;
 }
 body {
     font-family: ProximaNova,'helvetica neue',helvetica,arial,sans-serif;
@@ -68,7 +87,8 @@ ul {
 }
 @media screen and (max-width:800px) {
     #navbar{
-        flex-direction: column;
+        /* height: fit-content;
+        flex-direction: column; */
     }
 }
 
