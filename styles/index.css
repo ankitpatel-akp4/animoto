@@ -275,6 +275,10 @@ a{
 }
 #top_VII>div>div>h1{
     font-size: 70px;
+    color: white;
+}
+#top_VII>div>div>p{
+    color: white;
 }
 #top_VII>div>div>a{
     color: aliceblue;
@@ -292,13 +296,13 @@ a{
 }
 
 #top_VIII{
-    width: 100%;
+    width: 95%;
     margin: auto;
     padding-left: 50px;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 15px;
 }
 #top_VIII>div{
     width: 50%;
@@ -306,7 +310,11 @@ a{
 #top_VIII>div+div>img{
     display: block;
     width: 100%;
+    padding-bottom: 50px;
     /* margin-left: px; */
+}
+#top_VIII>div>h1,#top_VIII>div>p{
+    padding-bottom: 20px;
 }
 
 #top_VI h2{
@@ -339,7 +347,9 @@ a{
     
  /* playing video in full box ends************************************************ */
 
-   
+   .line_img{
+    width: 20%;
+   }
    
     #video>iframe {
         margin: auto;
