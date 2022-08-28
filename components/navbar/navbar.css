@@ -7,7 +7,7 @@ body{
     width: auto;
     display: grid;
     justify-content: center;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 #navbar_container{
     height: 73px;
@@ -239,6 +239,7 @@ body{
 #create_links_mobile h4,#learn_links_mobile h4{
     margin-top: 3%;
     margin-bottom: 1%;
+    font-size: 25px;
 }
 #create_links_mobile a, #learn_links_mobile a{
     display: block;
@@ -269,7 +270,7 @@ body{
 
 
 @media (max-width: 920px) { 
-
+    
     #nav_links{
         display: none;
     }
