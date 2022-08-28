@@ -17,11 +17,11 @@ function navbar_fn () {
                         <div>
                             <h2>BY VIDEO TYPE</h2>
                             <div>
-                                <a href="#">Promo video</a>
+                                <a href="/pages/promo.html">Promo video</a>
                                 <a href="/pages/tutorial.html">Tutorial video</a>
-                                <a href="">Slideshow video</a>
+                                <a href="/pages/slideshow.html">Slideshow video</a>
                                 <a href="/pages/birthday.html">Birthday video</a>
-                                <a href="">Social media video</a>
+                                <a href="/pages/socialMedia.html">Social media video</a>
                                 <a href="/pages/graduation.html">Graduation video</a>
                             </div>
                             
@@ -31,12 +31,12 @@ function navbar_fn () {
                         <div>
                             <h2>BY INDUSTRY</h2>
                             <div>
-                                <a href="">Business</a>
-                                <a href="">E-commerce</a>
-                                <a href="">Real estate</a>
-                                <a href="">Education</a>
-                                <a href="">Photography</a>
-                                <a href="">Non-profit</a>
+                                <a href="/pages/business.html">Business</a>
+                                <a href="/pages/tutorial.html">E-commerce</a>
+                                <a href="/pages/realState.html">Real estate</a>
+                                <a href="/pages/tutorial.html">Education</a>
+                                <a href="/pages/photography.html">Photography</a>
+                                <a href="/pages/tutorial.html">Non-profit</a>
                             </div>
                         
                         </div>
@@ -52,7 +52,7 @@ function navbar_fn () {
 
 
             
-            <div><a href="#">TEMPLATES</a></div>
+            <div><a href="../pages/tempplate.html">TEMPLATES</a></div>
             <div><a href="#">FEATURES</a></div>
             <div><a href="#">PRICING</a></div>
             <div id="learn"><a href="#">LEARN</a>
