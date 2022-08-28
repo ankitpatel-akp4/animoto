@@ -16,22 +16,14 @@ h1{
  margin: 0 auto;
 }
 
-.modal-container .modal-btn {
-  display: block;
-  color: #fff;
-  background: #e74c3c;
-  width: 160px;
-  height: 50px;
-  font-size: 22px;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 3px;
+.modal-btn {
+  text-decoration: none;
+  color: #23408c;
+  font-family: ProximaNova-Bold,helvetica neue,helvetica,arial,sans-serif;
+  font-size: calc(1.3vw + .01vh + .1vmin);
+  font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 5px 5px -5px #333;
 
-}
-.modal-container .modal-btn:hover {
-  background: #c0392b;
 }
 .modal-container .modal-content,
 .modal-container .modal-backdrop {
@@ -73,7 +65,16 @@ h1{
 
 }
 
-
+#modal-toggle{
+  position: relative;
+  top: 0px;
+  left: -50px;
+  width: 20px;
+  width: 0px;
+  height: 0px;
+  /* border: 1px red solid; */
+  
+}
 
 .modal-container #modal-toggle:checked ~ .modal-backdrop {
   background-color: rgba(0, 0, 0, 0.6);

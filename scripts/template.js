@@ -1,208 +1,203 @@
 let reco=[
   {
      "link": "https://animoto.com/builder/templates/all/self-introduction",
-     "image": "",
-     "vedeo": "https://animoto.com/builder/templates/all",
+     "image": "https://d150hyw1dtprld.cloudfront.net/Image/oz97cuDNSRt4Aqm8G1eksQ/cover-8273f4e9d5.jpg",
+     "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/CoOwWriFGH0KZ2nkxYM9Sw/hover-preview-54b4ef6124.mp4",
      "title": "Self-Introduction",
      "details": "Introduce yourself with a few fun facts and a call to work together."
    },
   {
      "link": "https://animoto.com/builder/templates/all/happy-birthday-slideshow",
      "image": "https://d150hyw1dtprld.cloudfront.net/Image/B3zG8S8Y98kWywXGlqfMSA/cover-ceffabe2c6.jpg",
-     "vedeo": "https://animoto.com/builder/templates/all",
+     "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/CoOwWriFGH0KZ2nkxYM9Sw/hover-preview-54b4ef6124.mp4",
      "title": "Happy Birthday Slideshow",
      "details": "Create a quick journey down memory lane to celebrate a birthday."
    },
    {
      "link": "https://animoto.com/builder/templates/all/wedding-slideshow",
      "image": "https://d150hyw1dtprld.cloudfront.net/Image/oz97cuDNSRt4Aqm8G1eksQ/cover-8273f4e9d5.jpg",
-     "vedeo": "https://animoto.com/builder/templates/all",
+     "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/CoOwWriFGH0KZ2nkxYM9Sw/hover-preview-54b4ef6124.mp4",
      "title": "Wedding Slideshow",
      "details": "Relive precious memories from your wedding day with a timeless video slideshow."
    },
  
  ]
-let  more_template=[
-   {
-     "link": "https://animoto.com/builder/templates/recommended/in-loving-memory",
-     "title": "In Loving Memory",
-     "details": "Remember someone special you lost by celebrating them with memorable pictures throughout their lifetime."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/reels-for-summer",
-     "title": "Reels for Summer",
-     "details": "Share the highlights of your summer with a fun and upbeat Instagram Reels video."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/digital-album",
-     "title": "Digital Album",
-     "details": "Pair your images with your client’s story to build a beautiful digital photo album they’ll want to share."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/new-real-estate-listing",
-     "title": "New Real Estate Listing",
-     "details": "Inform your customers of a new available listing on the market with this short and simple video."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/back-to-school-sale",
-     "title": "Back-to-School Sale",
-     "details": "Boost sales with an eye-catching back-to-school promo."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/educational-presentation",
-     "title": "Educational Presentation",
-     "details": "Offer up your knowledge on any subject with this informative video."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/summer-tiktok",
-     "title": "Summer TikTok",
-     "details": "Stand out on TikTok with a burst of summer memories."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/simple-product-explainer",
-     "title": "Simple Product Explainer",
-     "details": "Highlight the value of your product, service, or idea with a clever, easy-to-follow video."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/event-recap",
-     "title": "Event Recap",
-     "details": "Keep the momentum going after an event by sharing video highlights and key takeaways."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/brand-awareness-ad",
-     "title": "Brand Awareness Ad",
-     "details": "Get new audiences interested in your company or product with this bold, eye-catching ad."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/vacation-recap",
-     "title": "Vacation Recap",
-     "details": "Have your friends and family follow along on your latest travel adventure."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/sports-recap",
-     "title": "Sports Recap",
-     "details": "Celebrate the blood, sweat, and tears from this past season with a recap reel."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/bite-sized-product-intro",
-     "title": "Bite-sized Product Intro",
-     "details": "Introduce a product or service using a short and punchy template that'll grab attention."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/book-trailer",
-     "title": "Book Trailer",
-     "details": "Attract new readers by catching their attention online. Create a thrilling book trailer that’s sure to leave them wanting more."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/we-are-hiring",
-     "title": "We're Hiring",
-     "details": "Find the right fit for open roles and showcase your company benefits with a video."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/vocabulary-lesson",
-     "title": "Vocabulary Lesson",
-     "details": "Use a cheerful video to capture student’s attention and teach them new words."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/new-launch-promo",
-     "title": "New Launch Promo",
-     "details": "Highlight how your newest product or service can help solve customers' pain points."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/celebration-of-life",
-     "title": "Celebration of Life",
-     "details": "Celebrate your loved one’s memory with a moving video tribute."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/product-intro-ad",
-     "title": "Product Intro Ad",
-     "details": "Catch viewers' eyes and stand out on social with bold and colorful text layouts that pop."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/happy-birthday-slideshow",
-     "title": "Happy Birthday Slideshow",
-     "details": "Create a quick journey down memory lane to celebrate a birthday."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/anniversary-celebration",
-     "title": "Anniversary Celebration",
-     "details": "Celebrate a milestone anniversary with a sweet video that looks back on a story of love."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/product-demo",
-     "title": "Product Demo",
-     "details": "Help users get the most out of your product with step-by-step instructions and video demos."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/assignment-instructions",
-     "title": "Assignment Instructions",
-     "details": "Provide your students with easy, step-by-step instructions for an assignment."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/welcome-to-the-company",
-     "title": "Welcome To The Company",
-     "details": "Introduce your newest team member with a personalized video."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/guide-to-your-first-30-days",
-     "title": "Guide to Your First 30 Days",
-     "details": "Help new hires hit the ground running with an in-depth plan of their first 30 days on the job."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/in-memoriam-slideshow",
-     "title": "In Memoriam Slideshow",
-     "details": "Celebrate the life of someone special by remembering the joy they brought to you."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/employee-spotlight",
-     "title": "Employee Spotlight",
-     "details": "Help your team and social audience get to know your star employees with a spotlight video."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/graduation-memories",
-     "title": "Graduation Memories",
-     "details": "Celebrate your graduation with friends by remembering all your favorite moments together."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/retirement-celebration",
-     "title": "Retirement Celebration",
-     "details": "Celebrate a retiree’s career through a collection of photos and video clips."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/this-years-moments",
-     "title": "This Year's Moments",
-     "details": "Share the year's memories with friends on social media."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/workplace-explainer",
-     "title": "Workplace Explainer",
-     "details": "Explain the “why” behind new initiatives and goals with this informative video."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/how-to-submit-expenses",
-     "title": "How to Submit Expenses",
-     "details": "Create a straightforward step-by-step video explaining how to submit an expense report."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/product-teaser",
-     "title": "Product Teaser",
-     "details": "Build anticipation for your latest product launch with a video."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/class-of-2022",
-     "title": "Class of 2022",
-     "details": "Send off this year’s graduating class with a powerful quote."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/wedding-highlights",
-     "title": "Wedding Highlights",
-     "details": "Share some highlights from your wedding day with your friends, family, and followers."
-   },
-   {
-     "link": "https://animoto.com/builder/templates/recommended/about-us",
-     "title": "About Us",
-     "details": "Put your business in the spotlight using a simple zoom-in video style and an elegant brush stroke behind your text."
-   }
+ let  more_template=[
+  {
+    "link": "https://animoto.com/builder/templates/all/about-us",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/EKJjNppg2ItTOgf1frEYtw/cover-c67c678ede.jpg",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/EKJjNppg2ItTOgf1frEYtw/hover-preview-2b1b3c3e0f.mp4",
+    "title": "About Us",
+    "details": "Put your business in the spotlight using a simple zoom-in video style and an elegant brush stroke behind your text."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/ad-funnel-awareness",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/qlnbZHvR8FJrGmNuKTwk7A/cover-9cfd95e3ae.jpg",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/qlnbZHvR8FJrGmNuKTwk7A/hover-preview-7ec266a3c0.mp4",
+    "title": "Ad Funnel: Awareness",
+    "details": "Raise awareness of your brand with a wider audience."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/back-to-school-greeting",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/l1QlWe0LLmvdSSz0V0Puzw/cover-df0d3e2165.jpg",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/l1QlWe0LLmvdSSz0V0Puzw/hover-preview-1f35370e80.mp4",
+    "title": "Back to School Greeting",
+    "details": "Welcome students back to school with a short video featuring clips from teachers and faculty."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/back-to-school-sale",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/GGjhAQUAoXojZFYW04iYHA/cover-5707091d06.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Back-to-School Sale",
+    "details": "Boost sales with an eye-catching back-to-school promo."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/bd-amazon-testimonial-1",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/KH0LtWEgGmnN4GYLZJ3Shw/cover-459e83c381.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Before & After Testimonial",
+    "details": "Showcase the benefits of your product or service with a dramatic before-and-after video."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/behind-the-scenes",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/LJWIfqf11RBjsQuVnp1n3g/cover-9bac18359d.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Behind the Scenes",
+    "details": "Attract new clients by showing them what it’s like to work with you."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/birthday-card",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/11oD44a4Fc9rgCs35awFWw/cover-6b26066d05.jpg",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/11oD44a4Fc9rgCs35awFWw/hover-preview-1202974bea.mp4",
+    "title": "Birthday Card",
+    "details": "Wish a loved one a happy birthday with this digital card."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/bite-sized-product-intro",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/PoirMpQQJQlQZeukjs75kQ/cover-5bd9caeabe.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Bite-sized Product Intro",
+    "details": "Introduce a product or service using a short and punchy template that'll grab attention."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/black-friday-promo",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/X1U7OUW9f3EtOpv5LR5xDg/cover-834747e837.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Black Friday Promo",
+    "details": "Drive traffic to your business with a catchy video of your Black Friday sales."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/blog-teaser",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/4X6B4N1Fv47JxTmv16PDAw/cover-f58dd1ee45.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Blog Teaser",
+    "details": "Drive traffic to your blog by turning posts into videos to share on social media."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/book-report",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/CoOwWriFGH0KZ2nkxYM9Sw/cover-0e7ea55ea6.jpg",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/CoOwWriFGH0KZ2nkxYM9Sw/hover-preview-54b4ef6124.mp4",
+    "title": "Book Report",
+    "details": "Give your students the option of creating an entertaining video version of their book report."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/book-trailer",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/0JVfAVlGHsyrWkjkhSPy0A/cover-d5ec5932e0.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Book Trailer",
+    "details": "Attract new readers by catching their attention online. Create a thrilling book trailer that’s sure to leave them wanting more."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/brand-awareness-ad",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/U1t1pzW1loJSh0y8N5rMFg/cover-d4d218dff2.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Brand Awareness Ad",
+    "details": "Get new audiences interested in your company or product with this bold, eye-catching ad."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/brush-stroke-youtube-outro",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/mZIIGuool96u9P0CiAfGCw/cover-66712cc46c.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Brush Stroke YouTube Outro",
+    "details": "Thank viewers for watching and call them to subscribe to your YouTube channel."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/business-story",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/HTz2cOopGc0tvMtGpwqBig/cover-af2378bbdb.jpg",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/HTz2cOopGc0tvMtGpwqBig/hover-preview-4e99e4064b.mp4",
+    "title": "Business Story",
+    "details": "Showcase important information about your business using a delightfully minimalist template."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/call-to-action-quote",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/qGvK8nvy7gWAehVKVhYWRA/cover-1b909f2cda.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Call-to-Action Quote",
+    "details": "Pair a compelling quote with a call to action for your followers to support a particular cause."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/cause-awareness-campaign",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/bkohegujT7m802c2OLAqKQ/cover-beb1e69528.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Cause Awareness Campaign",
+    "details": "Spread awareness about an important cause and let your audience and how they can help."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/milestone-celebration",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/9D16DElOx3mW2tgURfO0Fg/cover-e54c3f752a.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Celebrating Achievements",
+    "details": "Share special moments with your viewers. Include a strong call to action to encourage engagement."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/celebration-of-life",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/pZT06LBnBEWGb4zTPNPhMA/cover-15158339ef.jpg",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/pZT06LBnBEWGb4zTPNPhMA/hover-preview-9943280ce8.mp4",
+    "title": "Celebration of Life",
+    "details": "Celebrate your loved one’s memory with a moving video tribute."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/christmas-greeting",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/wNdVBP0g89ovxEw9kWPx4Q/cover-eca7fdb9e7.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Christmas Greeting",
+    "details": "Wish your friends, family, or customers a Merry Christmas with this upbeat, playful video card."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/class-of-2022",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/RIBGVENOKazJzYCrkGqfpw/cover-c5fe3ba349.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Class of 2022",
+    "details": "Send off this year’s graduating class with a powerful quote."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/collection-launch",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/mAY0K1vSOrSF52HSLcXrmA/cover-71f668e46e.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Collection Launch",
+    "details": "Share details about a new release using a textured background and colorful text."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/portfolio",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/j0JqiboHSSVn3nMToTKoLA/cover-81af94a48c.jpg",
+    "vedeo": "https://d150hyw1dtprld.cloudfront.net/Footage/j0JqiboHSSVn3nMToTKoLA/hover-preview-a893adeba4.mp4",
+    "title": "Collection Portfolio",
+    "details": "Showcase a catalog of your products with an elegant design featuring soft transitions."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/coming-soon-announcement",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/00bgHcS53Z088ajtlFYniA/cover-72a4f35684.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Coming Soon Announcement",
+    "details": "Use short clips and images to tease the arrival of a new project."
+  },
+  {
+    "link": "https://animoto.com/builder/templates/all/community-challenge",
+    "image": "https://d150hyw1dtprld.cloudfront.net/Image/EX3DNdg8ki1cN8bKFCi6Bg/cover-70704f64c9.jpg",
+    "vedeo": "https://animoto.com/builder/templates/all",
+    "title": "Community Challenge",
+    "details": "Engage followers by inviting them to participate in a themed challenge."
+  },
  ]
  let all= [
   {
@@ -5643,7 +5638,7 @@ function hide(x,y){
   x.style.display="none"
   x.pause()
 }
-function hide(){
+function hiden(){
   if(document.querySelector("#sidebar").style.display=="none"){
       document.querySelector("#sidebar").style.display="block";
       document.querySelector("#transform").style.transform= 'rotate(180deg)';
@@ -5656,4 +5651,16 @@ function hide(){
   }
   
 
+}
+
+
+
+
+function hidenav(){
+    if(document.querySelector(".desktop_nav").style.display=="none"){
+        document.querySelector(".desktop_nav").style.display="block"
+    }
+    else{
+        document.querySelector(".desktop_nav").style.display="none"
+    }
 }

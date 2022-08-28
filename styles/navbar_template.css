@@ -41,7 +41,7 @@ a{
 #navbar{
     display: flex;
     justify-content: space-between;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 body {
     font-family: ProximaNova,'helvetica neue',helvetica,arial,sans-serif;
@@ -87,9 +87,25 @@ ul {
 }
 @media screen and (max-width:800px) {
     #navbar{
-        /* height: fit-content;
-        flex-direction: column; */
+        flex-direction: column;
+        height: fit-content!important;
+        position: relative;
     }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #mobile_mav_svg{
+        display: block;
+        width: 40px;
+        position: absolute;
+        top: 15px;
+        right: 32px;
+    }
+    #logo{
+        margin-bottom: 20px;
+    }
+
 }
 
 .grey-link{
