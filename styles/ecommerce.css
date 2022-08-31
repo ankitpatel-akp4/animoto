@@ -6,7 +6,7 @@
 }
 .top33{
     width: 100%;
-    height: 500px;
+    min-height: 500px;
     /* border: 3px solid red; */
     display: flex;
 }
@@ -24,7 +24,112 @@
 /*--------------------------------*/
 .top333{
     width: 50%;
-    height: 500px;
+    min-height: 500px;
+    /* border: 3px solid blue */
+}
+/*--------------------------------*/
+#top_3_3_2>h1{
+    padding: 20px 280px 0px 20px;
+    font-size: 50px;
+    justify-content: center;
+}
+#top_3_3_2>img{
+    margin: 20px 120px 0px 20px;
+    font-size: 60px;
+    justify-content: center;
+    width: 20%;
+}
+
+#top_3_3_2>p{
+    padding: 25px 130px 0px 20px;
+}
+#step1{
+    font-weight: bold;
+}
+/*--------------------------------------*/
+/*-----------------step2------------------*/
+#top_3_3_3>h1{
+    padding: 20px 120px 0px 130px;
+    font-size: 50px;
+    justify-content: center;
+}
+#top_3_3_3>img{
+    margin: 20px 0px 0px 130px;
+    font-size: 60px;
+    justify-content: center;
+    width:20%;
+}
+
+#top_3_3_3>p{
+    padding: 25px 90px 0px 130px;
+}
+#step2{
+    font-weight: bold;
+}
+/*----------------------------------------*/
+/*-----------------step3-------------------*/
+#top_3_3_6>h1{
+    padding: 20px 280px 0px 20px;
+    font-size: 50px;
+    justify-content: center;
+}
+#top_3_3_6>img{
+    margin: 20px 120px 0px 20px;
+    font-size: 60px;
+    justify-content: center;
+    width: 20%;
+}
+
+#top_3_3_6>p{
+    padding: 25px 130px 0px 20px;
+}
+#step3{
+    font-weight: bold;
+}
+/*--------------------------------------------*/
+/*----------------video1------------------------*/
+#top_3_3_1>video{
+    width: 90%;
+    height: 90%;
+}
+/*------------video---------------*/
+#top_3_3_4>video{
+    width: 90%;
+    height: 90%;
+}
+/*------------video---------------*/
+... (207 lines left)
+Collapse
+ecommerce.css
+7 KB
+﻿
+/*--------------------------TOP3----------------------------*/
+#ecom_top3{
+    width: 100%;
+    height: auto;
+    /* border: 5px solid green; */
+}
+.top33{
+    width: 100%;
+    min-height: 500px;
+    /* border: 3px solid red; */
+    display: flex;
+}
+/*------------------heading--------------------*/
+#heading3{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 15%;
+    font-size: 50px;
+}
+#underline3{
+    margin-left: 45%;
+    padding-bottom: 2%;
+}
+/*--------------------------------*/
+.top333{
+    width: 50%;
+    min-height: 500px;
     /* border: 3px solid blue */
 }
 /*--------------------------------*/
@@ -120,26 +225,33 @@
 /*---------------------------TOP4--------------------------------*/
 #ecom_top4{
     width: 100%;
-    height: 680px;
+    min-height: 680px;
     /* border: 3px solid black; */
     background-color: rgb(234, 236, 238);
-    margin-top: 140px;
-    margin-left: auto;
+    margin-top: 0px;
+    margin-left: auto; 
+}
+#ecom_4btn{
+    margin-top: 30px;
+    background-color: rgb(234, 236, 238);
+    display: flex;
 }
 /*--------------et4_btn------------*/
 .et4_btn{
-    margin: 70px 0px 70px 210px;
+    margin: 7px;
     font-size: 18px;
     font-weight: bold;
     border: none;
     background-color: rgb(234, 236, 238);;
     color: rgb(45, 53, 147);
+    /* display: flex; */
 }
 /*----------------et4_title-------------*/
 #et4_title{
-    margin-left: 210px;
-    margin-bottom: 50px;
+    /* margin-left: -450px; */
+    /* margin-bottom: 50px; */
     font-size: 50px;
+    /* text-align: left; */
 }
 .et4_para{
     margin-left: 250px;
@@ -156,17 +268,17 @@
 #ecom_top5{
     /* border: 2px solid black; */
     width: 100%;
-    height: 720px;
+    min-height: 720px;
     display: flex;
 }
 .et55{
     width: 50%;
-    height: 720px;
+    min-height: 720px;
     /* border: 2px solid green; */
 }
 #et5_img{
     width: 530px;
-    height: 550px;
+    min-height: 550px;
     margin-top: 12%;
     margin-left: 22%;
 }

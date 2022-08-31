@@ -141,5 +141,5 @@ function Saveuserdata(event){
     document.querySelector("#password").value = "";
     
     alert("SignedUp Successfully");
-    window.location.href = "./login.html"
+    window.location.href = "../../login.html"
 }
